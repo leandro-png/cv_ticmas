@@ -1,0 +1,117 @@
+<!DOCTYPE html> 
+<html> 
+
+  <head> 
+    <title>Nelson Perez</title> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/100.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Athiti:wght@200&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/curriculum-vitae.png" type="image/x-icon">
+    <link rel="icon" href="../img/curriculum-vitae.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/7aadb55fb1.js" crossorigin="anonymous"></script>
+  </head> 
+<!--------------------------------------------------------------------->
+<!--------------------------------------------------------------------->
+<!--------------------------------------------------------------------->
+
+  <body> 
+<!-------------------------------------------------------------------------------------------------------------------------------->
+  <div class="container-fluid" id="cabeza">
+
+<!--------------------------------------------------------------------->
+<div class="row">
+   <div class="col-3" id="cajon_izquierdo">
+    <br>
+   </div>
+   <div class="col-9" id="cajon_derecho">
+    <br>
+   </div>
+</div>    
+<!--------------------------------------------------------------------->
+<div class="row">
+    <div class="col-3" id="portafotito">
+<img id="fotito" src="../img/nelson.jpg" alt="Nelson">
+<!--
+  imagen generada por AI de 
+  https://this-person-does-not-exist.com/es
+-->
+      </div>
+      <div class="col-9">
+        <p class="nombre">Nelson</p>
+        <p class="nombre">Perez</p>
+        <p id="puesto">Ingeniero Químico</p>
+      </div>
+</div>
+<!--------------------------------------------------------------------->
+    <div class="row">
+
+      <div class="col-3" id="cajon_izquierdo">
+        <div id="perfil">
+            <h3>PERFIL</h3>
+            <hr>
+            <p>Ingeniero Químico con Orientación Alimentos.  Universidad Nacional de Río Cuarto, 1991</p>
+        </div>
+        
+        <div id="contacto">
+          <br>
+            <h3>CONTACTO</h3>
+            <hr>
+            <p><i class="fa-sharp fa-solid fa-envelope"></i> nelson.perez@gmail.com</p>
+            <p><i class="fa-sharp fa-solid fa-phone"></i> (+54) 223-41393820</p>
+            <p><i class="fa-sharp fa-solid fa-map-location-dot"></i> Mar del Plata, Argentina</p>
+        </div>
+        
+        <div id="habilidades">
+          <br>
+            <h3>FORMACION DE POSGRADO</h3>
+            <hr>
+            <ul>
+              <li><b>Master en Ingeniería Química, mención Alimentos.</b> Universidad Nacional de Río Cuarto. Tesis: “Extracción de aceites esenciales con fluidos supercríticos”. 2000</li>
+              <li><b>“Trayecto Curricular Sistemático”: Formulación, Evaluación y Gestión de Proyectos de Inversión.</b> Escuela de Posgraduación y Facultad de Ciencias Económicas. UNRC. 2002. Carga horaria: 120 horas.</li>
+              
+            </ul>
+        </div>
+      </div>
+      <div class="col-9"  id="cajon_derecho">
+
+       <div id="navegacion">
+
+<a href="101.html">VOLVER</a>
+       </div> 
+
+<br>
+<i class="fa-sharp fa-solid fa-house"></i> <p id="salida1"></p>
+       <p id="salida2"></p>
+       <p id="salida3"></p>
+
+<button type="button" class="btn btn-warning">Mostrar datos de contacto</button>
+
+
+            
+      </div>
+    </div>
+<!--------------------------------------------------------------------->    
+
+<div class="row text-center">
+<h5>Por Leandro D'Archivio</h5>
+</div>
+<!--------------------------------------------------------------------->
+  </div> 
+
+<!--
+    ESTE CODIGO DESPUES PONERLO EN UN ARCHIVO JS
+-->
+
+
+  <script>
+             const persona = '{"domicilio":"Malvinas Argentinas 3582","ciudad":"Mar del Plata", "DNI":"31.453.531"}';
+             const obj = JSON.parse(persona);
+             document.getElementById("salida1").innerHTML = "Domicilio: "+obj.domicilio;
+             document.getElementById("salida2").innerHTML = "Ciudad: "+obj.ciudad;
+             document.getElementById("salida3").innerHTML = "DNI: "+obj.DNI;
+            
+  </script>
+<!-------------------------------------------------------------------------------------------------------------------------------->
+</body> 
+</html> 
