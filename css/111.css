@@ -1,0 +1,77 @@
+/*---------------------------------------------------------------------
+*----------------------------------------------------------------------*/
+#cabeza {
+    background-color: black;
+    color: white;
+}
+
+.nombre {
+    font-size: 40px;
+    margin: 1px;
+}
+
+#portafotito {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color: yellow;
+}
+
+#cajon_izquierdo {
+    background-color: yellow;
+    color: black;
+}
+
+h3 {
+    font-size: 20px;
+}
+h4 {
+    font-weight: bold;
+    color: gray;
+}
+
+h5 {
+    font-size: 14px;
+    color: white;
+}
+
+#fotito {
+    width: 150px;
+    border-radius: 50%;
+}
+
+#cajon_derecho {
+    background-color: white;
+    color: black;
+}
+
+body {
+    font-family: 'Athiti', sans-serif;
+}
+
+#navegacion  {
+    background-color: gray;
+    color: white;
+/*display: inline-flex;*/
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+a:hover {
+    background-color: black;
+    color: gray; 
+    text-decoration: none;
+}
+#fotito:hover {
+    width: 155px;
+}
+#datossensibles {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
